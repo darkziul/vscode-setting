@@ -20,7 +20,6 @@ code --install-extension jeremyljackson.vs-docblock
 code --install-extension joelday.docthis
 code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension mikestead.dotenv
-code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-mssql.mssql
 code --install-extension octref.vetur
 code --install-extension Orta.vscode-jest
