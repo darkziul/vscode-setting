@@ -34,31 +34,47 @@ code --install-extension yzhang.markdown-all-in-one
 ### Settings.json
 ```json
 {
-    "workbench.colorTheme": "Dracula",
-    "editor.fontSize":16,
-    "editor.lineHeight":24,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-
-    "editor.rulers": [
-        80,
-        120
-    ],
-    "editor.renderLineHighlight": 14,
-    "workbench.iconTheme": "vscode-icons",
-    "editor.tabSize": 2,
-    "workbench.editor.enablePreview": false,
-    "window.nativeTabs": true,
-    "workbench.editor.showTabs": true,
-    "window.zoomLevel": 0,
-    "workbench.sideBar.location": "left",
-    "window.openFoldersInNewWindow": "on",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "explorer.confirmDelete": false,
-    "search.useGlobalIgnoreFiles": true,
-    "editor.detectIndentation": false,
-    "editor.formatOnSave": true,
+  "workbench.colorTheme": "Dracula",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": false,
+  
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ],
+  //lembrar de quebra a linha
+  "editor.rulers": [
+    100,
+    140,
+    180
+  ],
+  "editor.renderLineHighlight": 14,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.tabSize": 2,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.showTabs": true,
+  "window.zoomLevel": 0,
+  "workbench.sideBar.location": "left",
+  "window.openFoldersInNewWindow": "on",
+  "explorer.confirmDelete": false,
+  "search.useGlobalIgnoreFiles": true,
+  "editor.detectIndentation": false,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "never"
 }
+
 ```
