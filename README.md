@@ -19,7 +19,6 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension dracula-theme.theme-dracula
 code --install-extension EditorConfig.EditorConfig
 code --install-extension esbenp.prettier-vscode
-code --install-extension HookyQR.beautify
 code --install-extension jeremyljackson.vs-docblock
 code --install-extension joelday.docthis
 code --install-extension jpoissonnier.vscode-styled-components
